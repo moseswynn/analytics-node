@@ -1603,10 +1603,9 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-charenc@0.0.2:
+"charenc@github:pvorb/node-charenc#c92eade":
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
-  integrity sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==
+  resolved "https://codeload.github.com/pvorb/node-charenc/tar.gz/c92eade4dcb3d5c43a14f7c45e7af7dee562723e"
 
 chokidar@^1.4.2:
   version "1.7.0"
@@ -4950,12 +4949,11 @@ md5-o-matic@^0.1.1:
   resolved "https://registry.yarnpkg.com/md5-o-matic/-/md5-o-matic-0.1.1.tgz#822bccd65e117c514fab176b25945d54100a03c3"
   integrity sha1-givM1l4RfFFPqxdrJZRdVBAKA8M=
 
-md5@^2.3.0:
+"md5@https://github.com/moseswynn/node-md5.git#dependencies/charenc-github":
   version "2.3.0"
-  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
-  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
+  resolved "https://github.com/moseswynn/node-md5.git#f7cd075f918fcea791875dae0302939ba787ddb0"
   dependencies:
-    charenc "0.0.2"
+    charenc "github:pvorb/node-charenc#c92eade"
     crypt "0.0.2"
     is-buffer "~1.1.6"
 
